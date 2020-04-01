@@ -23,7 +23,7 @@ export default {
     }
   },
   mounted () {
-    this.axios.get('https://5a35cdfe.ngrok.io/api/doscg/sequence').then((response) => {
+    this.axios.get(`${this.apiUrl}/doscg/sequence`).then((response) => {
       this.sequenceResults = response.data
     })
   }

@@ -8,6 +8,14 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 Vue.config.productionTip = false
 
+Vue.mixin({
+  data () {
+    return {
+      apiUrl: 'http://zf3-scg-assignment.test/api'
+    }
+  }
+})
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
