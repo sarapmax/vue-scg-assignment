@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">1. Sequence solution</a>
+              <router-link class="nav-link" to="/sequence-solution">1. Sequence solution</router-link>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">2. Equation solution</a>
