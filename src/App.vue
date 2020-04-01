@@ -9,11 +9,11 @@
 
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <router-link class="nav-link" to="/sequence-solution">1. Sequence solution</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">2. Equation solution</a>
+              <router-link class="nav-link" to="/equation-solution">2. Equation solution</router-link>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">3. Line Bot</a>
@@ -36,3 +36,9 @@ export default {
   name: 'App'
 }
 </script>
+
+<style>
+  .router-link-active {
+    color: #fff !important;
+  }
+</style>

@@ -4,6 +4,7 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 import HelloWorld from '@/components/HelloWorld'
 import SequenceSolution from '@/components/SequenceSolution'
+import EquationSolution from '@/components/EquationSolution'
 
 Vue.use(Router)
 Vue.use(VueAxios, axios)
@@ -20,6 +21,11 @@ export default new Router({
       path: '/sequence-solution',
       name: 'SequenceSolution',
       component: SequenceSolution
+    },
+    {
+      path: '/equation-solution',
+      name: 'EquationSolution',
+      component: EquationSolution
     }
   ]
 })
