@@ -6,6 +6,7 @@ import HelloWorld from '@/components/HelloWorld'
 import SequenceSolution from '@/components/SequenceSolution'
 import EquationSolution from '@/components/EquationSolution'
 import GoogleApiMaps from '@/components/GoogleApiMaps'
+import LineBot from '@/components/LineBot'
 
 Vue.use(Router)
 Vue.use(VueAxios, axios)
@@ -32,6 +33,11 @@ export default new Router({
       path: '/google-api-maps',
       name: 'GoogleApiMaps',
       component: GoogleApiMaps
+    },
+    {
+      path: '/line-bot',
+      name: 'LineBot',
+      component: LineBot
     }
   ]
 })

@@ -16,7 +16,7 @@
               <router-link class="nav-link" to="/equation-solution">2. Equation solution</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">3. Line Bot</a>
+              <router-link class="nav-link" to="/line-bot">3. Line Bot</router-link>
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/google-api-maps">4. Google Maps</router-link>
