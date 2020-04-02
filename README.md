@@ -1,21 +1,33 @@
-# vue-scg-assignment
+## SCG Assignment - Vue CLI Project (Frond-end)
 
-> A Vue.js project
-
-## Build Setup
+### Installation
 
 ``` bash
-# install dependencies
+# clone the project
+git clone https://github.com/sarapmax/zf3-scg-assignment.git
+
+# install npm depencencies
 npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### Demonstration
+> The web includes 4 pages.
+
+(1) Sequence solution page (data received from the API)
+
+![page1](./src/assets/screenshots/page1.png)
+
+(2) Equation solution page (data received from the API)
+
+![page2](./src/assets/screenshots/page2.png)
+
+(3) Line Bot instruction page
+
+![page3](./src/assets/screenshots/page3.png)
+
+(4)  Google MAPs page (data received from Google Maps APIs)
+
+![page4](./src/assets/screenshots/page4.png)
