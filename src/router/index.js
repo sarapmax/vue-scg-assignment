@@ -5,6 +5,7 @@ import VueAxios from 'vue-axios'
 import HelloWorld from '@/components/HelloWorld'
 import SequenceSolution from '@/components/SequenceSolution'
 import EquationSolution from '@/components/EquationSolution'
+import GoogleApiMaps from '@/components/GoogleApiMaps'
 
 Vue.use(Router)
 Vue.use(VueAxios, axios)
@@ -26,6 +27,11 @@ export default new Router({
       path: '/equation-solution',
       name: 'EquationSolution',
       component: EquationSolution
+    },
+    {
+      path: '/google-api-maps',
+      name: 'GoogleApiMaps',
+      component: GoogleApiMaps
     }
   ]
 })

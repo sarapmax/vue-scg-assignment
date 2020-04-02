@@ -19,7 +19,7 @@
               <a class="nav-link" href="#">3. Line Bot</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">4. Google Maps</a>
+              <router-link class="nav-link" to="/google-api-maps">4. Google Maps</router-link>
             </li>
           </ul>
         </div>
