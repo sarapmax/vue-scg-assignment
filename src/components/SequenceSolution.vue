@@ -23,7 +23,7 @@ export default {
     }
   },
   mounted () {
-    this.axios.get(`${this.apiUrl}/doscg/sequence`).then((response) => {
+    this.axios.get('/doscg/sequence').then((response) => {
       this.sequenceResults = response.data
     })
   }

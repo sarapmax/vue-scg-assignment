@@ -24,7 +24,7 @@ export default {
     }
   },
   mounted () {
-    this.axios.get(`${this.apiUrl}/doscg/equation`).then((response) => {
+    this.axios.get('/doscg/equation').then((response) => {
       this.equationResult = response.data
     })
   }
